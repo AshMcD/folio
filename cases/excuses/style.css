@@ -1,0 +1,45 @@
+body {
+	background-image: url('images/doodles.png');
+	background-repeat: repeat;
+    font-family:'Russo One', sans-serif;
+    color: #0A2342;
+}
+
+h1 {
+	font-size: 64px;
+
+}
+
+button {
+	cursor: pointer;
+	background-color: #2CA58D;
+	height: 60px;
+	width: 200px;
+}
+
+button:hover{
+	opacity: 0.80;
+    transform: scale(1.1);
+    
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*fixed height of the footer*/
+    height: 30px;
+    font-family:'Russo One', sans-serif;
+    color: #0A2342;
+}
+/* add padding via a class */
+.top-buffer {
+    padding-top: 60px;
+}
+
+ #excusesComplete{
+	font-family: 'Amatic SC', monospace;
+	font-size: 63px;
+	color: #0A2342;
+} 
+
